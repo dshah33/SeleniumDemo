@@ -131,3 +131,4 @@ Open the HTML file in a browser to view pass/fail status, step logs, and screens
 ## Parallel Execution
 
 Tests run in parallel via TestNG's `parallel="methods"` (default: 3 threads). Thread safety is guaranteed by `ThreadLocal<WebDriver>` -- each test method gets its own browser instance.
+
