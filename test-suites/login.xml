@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo - Login Suite" verbose="1" parallel="methods" thread-count="2">
+
+    <listeners>
+       <!--  <listener class-name="com.framework.listeners.RetryListener"/> -->
+        <listener class-name="com.framework.listeners.ReportListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.demo.tests.LoginTests"/>
+        </classes>
+    </test>
+
+</suite>

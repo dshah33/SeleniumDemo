@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-30T09:43:59 EDT" name="SauceDemo - Main Suite" finished-at="2026-03-30T09:44:29 EDT" duration-ms="29603">
+    <groups>
+    </groups>
+    <test started-at="2026-03-30T09:43:59 EDT" name="Regression Tests" finished-at="2026-03-30T09:44:29 EDT" duration-ms="29603">
+      <class name="com.demo.tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.tests.LoginTests@49912c99]" started-at="2026-03-30T09:44:00 EDT" name="setUp" finished-at="2026-03-30T09:44:05 EDT" duration-ms="5477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithLockedOutUser()[pri:0, instance:com.demo.tests.LoginTests@49912c99]" started-at="2026-03-30T09:44:05 EDT" name="loginWithLockedOutUser" description="Locked-out user should see an error message" finished-at="2026-03-30T09:44:08 EDT" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.tests.LoginTests@49912c99]" started-at="2026-03-30T09:44:09 EDT" name="tearDown" finished-at="2026-03-30T09:44:09 EDT" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.tests.LoginTests@49912c99]" started-at="2026-03-30T09:44:09 EDT" name="setUp" finished-at="2026-03-30T09:44:11 EDT" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.demo.tests.LoginTests@49912c99]" started-at="2026-03-30T09:44:11 EDT" name="loginWithValidCredentials" description="Valid credentials should navigate to inventory page" finished-at="2026-03-30T09:44:15 EDT" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.tests.LoginTests@49912c99]" started-at="2026-03-30T09:44:15 EDT" name="tearDown" finished-at="2026-03-30T09:44:16 EDT" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.tests.LoginTests -->
+      <class name="com.demo.tests.E2ETests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.tests.E2ETests@383bfa16]" started-at="2026-03-30T09:44:16 EDT" name="setUp" finished-at="2026-03-30T09:44:18 EDT" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeCheckoutWithTwoProducts()[pri:0, instance:com.demo.tests.E2ETests@383bfa16]" started-at="2026-03-30T09:44:18 EDT" name="completeCheckoutWithTwoProducts" finished-at="2026-03-30T09:44:28 EDT" duration-ms="10398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutWithTwoProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.tests.E2ETests@383bfa16]" started-at="2026-03-30T09:44:28 EDT" name="tearDown" finished-at="2026-03-30T09:44:29 EDT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.tests.E2ETests -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- SauceDemo - Main Suite -->
+</testng-results>
